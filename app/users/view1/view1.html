@@ -1,1 +1,18 @@
-<p>This is the partial for view 1.</p>
+<form name="loginUser">
+    <fieldset>
+        <legend>Login</legend>
+        <label for="loginEmail">Username/Email: <input type="email" name="loginEmail" id="loginEmail" ng-model="loginEmail" placeholder="Email"/></label>
+        <label for="loginPassword">Password: <input type="password" name="loginPassword" id="loginPassword" ng-model="loginPassword" placeholder="Password"/></label>
+        <input type="submit" value="Login" />
+    </fieldset>
+</form>
+
+<form name="registerUser">
+    <fieldset>
+        <label>Register</label>
+        <label for="registerEmail">Email: <input type="email" name="registerEmail" id="registerEmail" ng-model="registerEmail" placeholder="Email" /></label>
+        <label for="registerPassword">Password: <input type="password" name="registerPassword" id="registerPassword" ng-model="registerPassword" placeholder="Password" /></label>
+        <label for="registerConfirmPassword">Confirm Password: <input type="password" name="registerConfirmPassword" id="registerConfirmPassword" ng-model="registerConfirmPassword" placeholder="Confirm password" /></label>
+        <input type="submit" value="Register" />
+    </fieldset>
+</form>
